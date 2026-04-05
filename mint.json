@@ -16,37 +16,16 @@
     }
   },
   "topbarLinks": [
-    {
-      "name": "Get Fizen Card",
-      "url": "https://fizen.io/card"
-    }
+    { "name": "Get Fizen Card", "url": "https://fizen.io/card" }
   ],
   "topbarCtaButton": {
     "name": "Download App",
     "url": "https://url.fizen.io/downloadgb"
   },
-  "tabs": [
-    {
-      "name": "Help Center",
-      "url": "help-center"
-    }
-  ],
   "anchors": [
-    {
-      "name": "Telegram Community",
-      "icon": "telegram",
-      "url": "https://t.me/fizen_io"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://blog.fizen.io"
-    },
-    {
-      "name": "Support",
-      "icon": "envelope",
-      "url": "mailto:support@fizen.io"
-    }
+    { "name": "Telegram Community", "icon": "telegram", "url": "https://t.me/fizen_io" },
+    { "name": "Blog", "icon": "newspaper", "url": "https://blog.fizen.io" },
+    { "name": "Support", "icon": "envelope", "url": "mailto:support@fizen.io" }
   ],
   "navigation": {
     "languages": [
@@ -54,157 +33,31 @@
         "language": "en",
         "default": true,
         "groups": [
-          {
-            "group": "",
-            "pages": ["welcome", "events"]
-          },
-          {
-            "group": "General Introduction",
-            "pages": [
-              "general/story",
-              "general/products",
-              "general/practical-applications",
-              "general/achievements"
-            ]
-          },
-          {
-            "group": "Cooperation & Business",
-            "pages": [
-              "cooperation/integration",
-              "cooperation/business-collaboration"
-            ]
-          },
-          {
-            "group": "Help Center",
-            "pages": [
-              "help-center/fizen-app",
-              "help-center/fizen-pay",
-              {
-                "group": "Fizen Card",
-                "pages": [
-                  "help-center/fizen-card/overview",
-                  "help-center/fizen-card/apply",
-                  "help-center/fizen-card/top-up",
-                  "help-center/fizen-card/spending",
-                  "help-center/fizen-card/fees"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "Information",
-            "pages": [
-              "information/brand-guidelines",
-              "information/contact",
-              "information/terms",
-              "information/privacy",
-              "information/disclaimer"
-            ]
-          }
+          { "group": "", "pages": ["welcome", "events"] },
+          { "group": "General Introduction", "pages": ["general/story","general/products","general/practical-applications","general/achievements"] },
+          { "group": "Cooperation & Business", "pages": ["cooperation/integration","cooperation/business-collaboration"] },
+          { "group": "Help Center", "pages": ["help-center/fizen-app","help-center/fizen-pay",{"group":"Fizen Card","pages":["help-center/fizen-card/overview","help-center/fizen-card/apply","help-center/fizen-card/top-up","help-center/fizen-card/spending","help-center/fizen-card/fees"]}] },
+          { "group": "Information", "pages": ["information/brand-guidelines","information/contact","information/terms","information/privacy","information/disclaimer"] }
         ]
       },
       {
         "language": "ru",
         "groups": [
-          {
-            "group": "",
-            "pages": ["ru/welcome", "ru/events"]
-          },
-          {
-            "group": "Общая информация",
-            "pages": [
-              "ru/general/story",
-              "ru/general/products",
-              "ru/general/practical-applications",
-              "ru/general/achievements"
-            ]
-          },
-          {
-            "group": "Сотрудничество",
-            "pages": [
-              "ru/cooperation/integration",
-              "ru/cooperation/business-collaboration"
-            ]
-          },
-          {
-            "group": "Центр помощи",
-            "pages": [
-              "ru/help-center/fizen-app",
-              "ru/help-center/fizen-pay",
-              {
-                "group": "Fizen Card",
-                "pages": [
-                  "ru/help-center/fizen-card/overview",
-                  "ru/help-center/fizen-card/apply",
-                  "ru/help-center/fizen-card/top-up",
-                  "ru/help-center/fizen-card/spending",
-                  "ru/help-center/fizen-card/fees"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "Информация",
-            "pages": [
-              "ru/information/brand-guidelines",
-              "ru/information/contact",
-              "ru/information/terms",
-              "ru/information/privacy",
-              "ru/information/disclaimer"
-            ]
-          }
+          { "group": "", "pages": ["ru/welcome","ru/events"] },
+          { "group": "Общая информация", "pages": ["ru/general/story","ru/general/products","ru/general/practical-applications","ru/general/achievements"] },
+          { "group": "Сотрудничество", "pages": ["ru/cooperation/integration","ru/cooperation/business-collaboration"] },
+          { "group": "Центр помощи", "pages": ["ru/help-center/fizen-app","ru/help-center/fizen-pay",{"group":"Fizen Card","pages":["ru/help-center/fizen-card/overview","ru/help-center/fizen-card/apply","ru/help-center/fizen-card/top-up","ru/help-center/fizen-card/spending","ru/help-center/fizen-card/fees"]}] },
+          { "group": "Информация", "pages": ["ru/information/brand-guidelines","ru/information/contact","ru/information/terms","ru/information/privacy","ru/information/disclaimer"] }
         ]
       },
       {
         "language": "zh",
         "groups": [
-          {
-            "group": "",
-            "pages": ["zh/welcome", "zh/events"]
-          },
-          {
-            "group": "总体介绍",
-            "pages": [
-              "zh/general/story",
-              "zh/general/products",
-              "zh/general/practical-applications",
-              "zh/general/achievements"
-            ]
-          },
-          {
-            "group": "合作与业务",
-            "pages": [
-              "zh/cooperation/integration",
-              "zh/cooperation/business-collaboration"
-            ]
-          },
-          {
-            "group": "帮助中心",
-            "pages": [
-              "zh/help-center/fizen-app",
-              "zh/help-center/fizen-pay",
-              {
-                "group": "Fizen Card",
-                "pages": [
-                  "zh/help-center/fizen-card/overview",
-                  "zh/help-center/fizen-card/apply",
-                  "zh/help-center/fizen-card/top-up",
-                  "zh/help-center/fizen-card/spending",
-                  "zh/help-center/fizen-card/fees"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "信息",
-            "pages": [
-              "zh/information/brand-guidelines",
-              "zh/information/contact",
-              "zh/information/terms",
-              "zh/information/privacy",
-              "zh/information/disclaimer"
-            ]
-          }
+          { "group": "", "pages": ["zh/welcome","zh/events"] },
+          { "group": "总体介绍", "pages": ["zh/general/story","zh/general/products","zh/general/practical-applications","zh/general/achievements"] },
+          { "group": "合作与业务", "pages": ["zh/cooperation/integration","zh/cooperation/business-collaboration"] },
+          { "group": "帮助中心", "pages": ["zh/help-center/fizen-app","zh/help-center/fizen-pay",{"group":"Fizen Card","pages":["zh/help-center/fizen-card/overview","zh/help-center/fizen-card/apply","zh/help-center/fizen-card/top-up","zh/help-center/fizen-card/spending","zh/help-center/fizen-card/fees"]}] },
+          { "group": "信息", "pages": ["zh/information/brand-guidelines","zh/information/contact","zh/information/terms","zh/information/privacy","zh/information/disclaimer"] }
         ]
       }
     ]
