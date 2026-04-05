@@ -1,0 +1,106 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Fizen Docs",
+  "logo": {
+    "dark": "/logo/fizen-white.svg",
+    "light": "/logo/fizen-dark.svg"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#1a56db",
+    "light": "#4f83f1",
+    "dark": "#1039a8",
+    "anchors": {
+      "from": "#1a56db",
+      "to": "#4f83f1"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Get Fizen Card",
+      "url": "https://fizen.io/card"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Download App",
+    "url": "https://url.fizen.io/downloadgb"
+  },
+  "tabs": [
+    {
+      "name": "Help Center",
+      "url": "help-center"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Telegram Community",
+      "icon": "telegram",
+      "url": "https://t.me/fizen_io"
+    },
+    {
+      "name": "Blog",
+      "icon": "newspaper",
+      "url": "https://blog.fizen.io"
+    },
+    {
+      "name": "Support",
+      "icon": "envelope",
+      "url": "mailto:support@fizen.io"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "",
+      "pages": ["welcome", "events"]
+    },
+    {
+      "group": "General Introduction",
+      "pages": [
+        "general/story",
+        "general/products",
+        "general/practical-applications",
+        "general/achievements"
+      ]
+    },
+    {
+      "group": "Cooperation & Business",
+      "pages": [
+        "cooperation/integration",
+        "cooperation/business-collaboration"
+      ]
+    },
+    {
+      "group": "Help Center",
+      "pages": [
+        "help-center/fizen-app",
+        "help-center/fizen-pay",
+        {
+          "group": "Fizen Card",
+          "pages": [
+            "help-center/fizen-card/overview",
+            "help-center/fizen-card/apply",
+            "help-center/fizen-card/top-up",
+            "help-center/fizen-card/spending",
+            "help-center/fizen-card/fees"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Information",
+      "pages": [
+        "information/brand-guidelines",
+        "information/contact",
+        "information/terms",
+        "information/privacy",
+        "information/disclaimer"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://twitter.com/fizenapp",
+    "telegram": "https://t.me/fizen_io",
+    "linkedin": "https://www.linkedin.com/company/fizen-io/",
+    "youtube": "https://www.youtube.com/@fizenio"
+  }
+}
